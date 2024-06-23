@@ -2,7 +2,8 @@
 import random
 from app.sql import SQL_Server
 
-sql=SQL_Server()
+# sql=SQL_Server()
+sql = config()
 
 # Department
 department_id_list = []
